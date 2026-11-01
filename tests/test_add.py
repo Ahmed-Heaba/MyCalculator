@@ -1,12 +1,12 @@
 import unittest
 
-from Calc import addCalc
+from Caculate import calculate
 class TestCalculator(unittest.TestCase):
     def test_addition_positive_numbers(self):
-        self.assertEqual(addCalc(5, 3), 8)
+        self.assertEqual(calculate(5, 3), 8)
 
     def test_addition_negative_numbers(self):
-        self.assertEqual(addCalc(-5, -3), -8)
+        self.assertEqual(calculate(-5, -3), -8)
 
 
 if __name__ == "__main__":
