@@ -9,7 +9,7 @@ def main():
     try:
             a = float(input("Enter first number: "))
             b = float(input("Enter second number: "))
-            result = calculate(a, b, operation)
+            result = addCalc(a, b)
             print("Result:", result)
         except (ValueError, TypeError, ZeroDivisionError) as error:
             print("Error:", error)
