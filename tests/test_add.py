@@ -1,6 +1,6 @@
 import unittest
 
-from Caculate import calculate
+from Calculate import calculate
 class TestCalculator(unittest.TestCase):
     def test_addition_positive_numbers(self):
         self.assertEqual(calculate(5, 3), 8)
