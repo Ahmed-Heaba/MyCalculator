@@ -12,8 +12,4 @@ class TestCalculator(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-# from Calc import addCalc
 
-# class TestCalculator(unittest.TestCase):
-#     def test_addition_positive_numbers(self):
-#         self.assertEqual(addCalc(5, 3), 8)
