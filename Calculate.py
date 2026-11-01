@@ -1,4 +1,4 @@
-def addCalc(a,b):
+def Calculate(a,b):
     if type(a) not in (int, float) or type(b) not in (int, float):
         raise TypeError("Both operands must be numbers.")
 
